@@ -1,10 +1,15 @@
 package com.souhailBektachi.metier;
 
 import com.souhailBektachi.dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component("metier")
 public class MetierImpl implements IMetier {
 
     private IDao dao;
+
+    @Autowired
     public MetierImpl(IDao dao) {
         this.dao = dao;
     }
