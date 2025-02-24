@@ -1,0 +1,2 @@
+com.souhailBektachi.dao.DaoImpl
+com.souhailBektachi.metier.MetierImpl
